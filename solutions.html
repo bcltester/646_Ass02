@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to Vecta Corp.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.mobilemenu.js"></script>
+
+	<!-- MY CUSTOM STYLES -->
+	<link href="css/styles.css" rel="stylesheet">
+	<!-- jQuery UI -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/eggplant/jquery-ui.css">
+
+
+
+    <!-- SCROLLSPY FILES -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+
+
+
+            
+
+	<script>
+		$(document).ready(function(){
+			$('#responsive-menu').mobileMenu();
+			$('.scrollspy').scrollSpy();
+    		$("#sticker").sticky({topSpacing:0});			
+		});
+	</script>
+
+	<style>
+		h5 {
+			margin: 10px 0 10px 0;
+			font-weight: bold;
+		}
+		li {
+			list-style-type: disc;
+			margin-left: 20px;
+		}
+		#quicknav li {
+			list-style-type: none;
+		}
+		#backtothetop-fixed {
+			display: block;
+			background-color: #5500BB;
+			margin: 0 10px 10px 0; 
+			padding: 10px;
+			text-decoration: none; 
+			font-weight: bold;
+			color: white;
+		}
+	</style>
+</head>
+<body id="top">
+	<a href="#top" id="backtothetop-fixed" data-backtothetop-easing="easeOutQuart">Back to Top</a>
+	<main class="container">
+		<figure class="three columns">
+			<img src="images/logo.gif" class="scale-with-grid" alt="">
+		</figure>
+		
+		<nav class="thirteen columns">
+			<ul id="responsive-menu">
+				<li><a href="index.html" title="Your home for everything related to vSolutions, vEmployment, and vProfits.">Home</a></li>
+				<li><a href="aboutus.html" title="Learn about our management team, company mission, and the ways we give back to the vCommunity.">About Us</a></li>
+				<li><a href="solutions.html" title="Vecta Corp. offers 3 solutions for prospecting, converting, and retaining customers.">Solutions</a></li>
+				<li><a href="support.html" title="Have questions? Need support files? Access our FAQs and downloads.">Support</a></li>
+				<li><a href="contactus.html" title="Do you need assistance that our website cannot help you with? Reach out to our professionally-trained staff.">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<header class="sixteen columns">
+			<img src="images/header.gif" class="scale-with-grid" alt="">
+		</header>
+		
+		<section id="welcome" class="eleven columns">
+			<h4>Our Solutions</h4>
+
+	        <div id="vprospect" class="section scrollspy">
+				<h5>vProspect 2.0</h5>
+
+				<p>Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience. vProspect can help your business:
+				<ul>
+					<li>Define your target audience and competition.</li>
+
+					<li>Research your competition and your target audience's behavior, needs, technical know-how level, etc.</li>
+
+					<li>Establish a conceptual and visual identity that corresponds to the defined direction of the company.</li>
+
+					<li>Ensure consistency across all media.</li>
+
+					<li>Establish corporate guidelines for cohesiveness of any future developments.</li>
+
+					<li>Define and/or re-defining your service and/or product offerings.</li>
+
+					<li>Define expansion plans and strategies.</li>
+
+					<li>Implement Search Engine Optimization of all Online materials.</li>
+				</ul>
+				<a href="#welcome">Back to Our Solutions top</a>
+    		</div>
+
+		    <div id="vconvert" class="section scrollspy">
+				<h5>vConvert 2.0</h5>
+
+				<ul>
+					<li>Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level. vConvert can help your business:
+
+					<li>Build a visual and functional user front end that focuses exclusively on providing an exceptional user experience while conveying company, service and product information.</li>
+
+					<li>Cause the desired emotional response in a user to facilitate conversion to a client.</li>
+
+					<li>Build sites that move beyond merely conveying information. They advertise, motivate, excite and inspire. Users are more likely to remember and recommend your site.</li>
+
+					<li>Research your target audience's behavior, needs, technical know-how and level, etc.</li>
+
+					<li>Develop any applicable back-end programs to facilitate user interaction with the company and offerings on a highly functional level to allow any kind of online transactions and a completely centralized information collection and access point, accessible from any location.</li>
+
+					<li>Create an architecture to display the site content and information in a logical and easy to access manner. Facilitating thereby the desired ease, for the user to find what they are looking for quickly and easily. Allowing the user to focus on the subject at hand rather than searching for information on the site.</li>
+				</ul>
+				<a href="#welcome">Back to Our Solutions top</a>
+		    </div>
+
+		    <div id="vretain" class="section scrollspy">
+				<h5>vRetain 1.0</h5>
+				<ul>
+					<li>Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues. vRetain can help your business:
+
+					<li>Streamline existing business infrastructures by utilizing technology for automation, information centralization, and information sharing among all business units and departments, as well as efficient prospect & customer tracking and interaction within the company.</li>
+
+					<li>Collect crucial information, data and statistics that allow a company to keep in touch with users in a very customized, highly targeted way.</li>
+
+					<li>Analyze site visitor behavior through traffic analysis, usability studies and interactive polling. Recommending and making site and application adjustments to improve usability and user experience.</li>
+				</ul>
+				<a href="#welcome">Back to Our Solutions top</a>
+		    </div>
+		</section>      
+
+	    <section id="quicknav" class="five columns">
+	      <ul id="sticker" class="section table-of-contents">
+	      	<h4>Quick Nav</h4>
+	        <li><a href="#vprospect">vProspect 2.0</a></li>
+	        <li><a href="#vconvert">vConvert 2.0</a></li>
+	        <li><a href="#vretain">vRetain 1.0</a></li>
+	      </ul>
+	    </section>
+		
+
+	</main>
+    <!-- STICKY FILES -->
+	<script src="js/jquery.sticky.js"></script>
+    <!-- BACK TO TOP BUTTON FILES -->	
+	<script src="js/jquery.backtothetop.min.js"></script>
+	<script src="https://cdnjs.com/libraries/jquery-easing"></script>
+	<!-- QUICKNAV FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>	
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/script.js"></script>	
+</body>
+</html>
